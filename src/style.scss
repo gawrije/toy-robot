@@ -1,0 +1,40 @@
+#root > div{
+    display: flex;
+    justify-content: center;
+}
+
+.main-container { 
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.grid {
+    flex:3;
+    height: 100%;
+}
+
+.console {
+    flex: 2;
+    height: 98%;
+    background-color: black;
+    padding: 5px;
+
+    .output {
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+    }
+
+    .cmd-error {
+        color: red;
+    }
+
+    .user-input{
+        width: 95%;
+
+        input{
+            width: 100%;
+        }
+    }
+}
